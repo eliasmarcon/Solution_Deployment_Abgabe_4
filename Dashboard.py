@@ -427,7 +427,7 @@ def calculatePercent(_, bundesland : str, start_date : datetime, end_date : date
 
 # Run the app
 def start():    
-    app.run_server(host='0.0.0.0')
+    app.run_server(host='0.0.0.0', port=80)
 
 if __name__ == '__main__':
     start()
