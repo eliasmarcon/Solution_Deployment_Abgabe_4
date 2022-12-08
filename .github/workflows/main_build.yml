@@ -41,3 +41,4 @@ jobs:
         publish-profile: ${{ secrets.AZUR_PUBLISH_PROFILE }}
         # Enter an existing Slot other than the Production slot
         images: index.docker.io/eliasm2022/homework_3_marcon:${{ github.sha }}
+
